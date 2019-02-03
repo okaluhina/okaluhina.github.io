@@ -93,17 +93,20 @@
 }
 
 .search__bar {
-  border-style: none;
+  border-style: solid;
+  border-width: 0.1em 0 0.1em 0.1em;
+  border-color: #993300;
   border-radius: 10px 0 0 10px;
 }
 
 .search__btn {
   width: 5em;
-  border-style: none;
-  color: inherit;
-  background-color: #995500;
-  border: none;
+  border-style: solid;
+  border-width: 0.1em 0.1em 0.1em 0;
   border-radius: 0 10px 10px 0;
+  border-color: #993300;
+  color: inherit;
+  background-color: #993300;
 }
 
 .navigation {
