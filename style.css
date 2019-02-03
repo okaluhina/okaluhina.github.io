@@ -13,6 +13,8 @@
   "article sidebar";
   grid-template-rows: 8em auto 1fr;
   grid-template-columns: 2fr 0.5fr;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .body__header {
